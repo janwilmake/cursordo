@@ -2,6 +2,8 @@
 This minimal example (<2000 tokens) shows how to create realtime websocket connection between a durable object and several clients
 
 This example was inspired by https://github.com/carolkindell/multiplayer-particles
+
+Easily around with this repo usecases using LMPIFY: https://lmpify.com/httpsuithubcomj-n0ksf80
  */
 export class CursorDO {
   constructor(state, env) {
