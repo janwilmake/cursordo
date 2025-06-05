@@ -1,17 +1,10 @@
 name = "cursordo"
 main = "main.js"
 compatibility_date = "2025-06-05"
-
 dev.port = 3000
-routes = [
-  { pattern = "cursor.wilmake.com", custom_domain = true }
-]
-
+routes = [{ pattern = "cursor.wilmake.com", custom_domain = true }]
 [durable_objects]
-bindings = [
-  { name = "CURSOR", class_name = "CursorDO" }
-]
-
+bindings = [{ name = "CURSOR", class_name = "CursorDO" }]
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["CursorDO"]
