@@ -1,5 +1,7 @@
 /**
 This minimal example (<2000 tokens) shows how to create realtime websocket connection between a durable object and several clients
+
+This example was inspired by https://github.com/carolkindell/multiplayer-particles
  */
 export class CursorDO {
   constructor(state, env) {
@@ -116,6 +118,7 @@ aside{position:fixed;bottom:10px;right:10px;color:white;background:rgba(0,0,0,.7
 .cursor{position:absolute;width:20px;height:20px;border-radius:50%;pointer-events:none;transform:translate(-50%,-50%);z-index:1000;transition:all .1s ease}
 .cursor::after{content:'';position:absolute;top:50%;left:50%;width:6px;height:6px;background:white;border-radius:50%;transform:translate(-50%,-50%)}
 .session{margin:2px 0;font-size:12px}
+footer{position:fixed;bottom:10px; left: 10px; color:white;background:rgba(0,0,0,.7);padding:10px;border-radius:5px;z-index:100;min-width:200px}
 </style>
 </head>
 <body>
