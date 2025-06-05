@@ -1,3 +1,6 @@
+/**
+This minimal example (<2000 tokens) shows how to create realtime websocket connection between a durable object and several clients
+ */
 export class CursorDO {
   constructor(state, env) {
     this.state = state;
@@ -118,7 +121,7 @@ aside{position:fixed;bottom:10px;right:10px;color:white;background:rgba(0,0,0,.7
 <body>
 <header id="status">Connecting...</header>
 <aside id="sessions"></aside>
-
+<footer><a href="https://github.com/janwilmake/cursordo">GitHub</a></footer>
 <script>
 class CursorApp {
   constructor() {
